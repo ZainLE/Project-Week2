@@ -1,10 +1,8 @@
 import openai
 from config import OPENAI_API_KEY
-import openai
 
-# Set the OpenAI API key
+
 api_key = OPENAI_API_KEY
-
 
 openai.api_key = api_key
 
@@ -20,8 +18,7 @@ def chat_with_gpt(user_input):
         max_tokens=400  
     )
     return response['choices'][0]['message']['content']
-
-# Initial user input
+\
 user_input = input("You: ")
 
 while user_input.lower() != 'exit':
