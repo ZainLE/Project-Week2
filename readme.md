@@ -27,7 +27,8 @@ TIBI is your personal travel assistant designed to help you plan your trips, col
 ## Setup
 1. Install the required dependencies using:
     ```bash
-    pip install openai streamlit spacy geopy folium streamlit-folium
+    pip install -r requirements.txt
+
     ```
 2. Obtain your OpenAI API key and update `config.py` with your key.
 
@@ -35,6 +36,3 @@ TIBI is your personal travel assistant designed to help you plan your trips, col
 Execute the code using:
 ```bash
 streamlit main.py
-
-
-
